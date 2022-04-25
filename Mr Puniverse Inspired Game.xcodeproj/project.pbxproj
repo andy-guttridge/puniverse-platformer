@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1123E7B27A703B200A10A0C /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1123E7A27A703B200A10A0C /* Switch.swift */; };
+		A1123E7C27A703B200A10A0C /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1123E7A27A703B200A10A0C /* Switch.swift */; };
+		A14017E9272D59EB00CFA4C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14017E8272D59EB00CFA4C2 /* AppDelegate.swift */; };
+		A14017EB272D59EB00CFA4C2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14017EA272D59EB00CFA4C2 /* GameViewController.swift */; };
+		A14017EE272D59EB00CFA4C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14017EC272D59EB00CFA4C2 /* Main.storyboard */; };
+		A14017F1272D59EB00CFA4C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14017EF272D59EB00CFA4C2 /* LaunchScreen.storyboard */; };
+		A14017F9272D59EB00CFA4C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14017F8272D59EB00CFA4C2 /* AppDelegate.swift */; };
+		A14017FB272D59EB00CFA4C2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14017FA272D59EB00CFA4C2 /* GameViewController.swift */; };
+		A14017FE272D59EB00CFA4C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14017FC272D59EB00CFA4C2 /* Main.storyboard */; };
+		A1401800272D59EB00CFA4C2 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A14017DD272D59E900CFA4C2 /* Actions.sks */; };
+		A1401801272D59EB00CFA4C2 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A14017DD272D59E900CFA4C2 /* Actions.sks */; };
+		A1401802272D59EB00CFA4C2 /* StartScreen.sks in Resources */ = {isa = PBXBuildFile; fileRef = A14017DE272D59E900CFA4C2 /* StartScreen.sks */; };
+		A1401803272D59EB00CFA4C2 /* StartScreen.sks in Resources */ = {isa = PBXBuildFile; fileRef = A14017DE272D59E900CFA4C2 /* StartScreen.sks */; };
+		A1401804272D59EB00CFA4C2 /* LevelScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14017DF272D59E900CFA4C2 /* LevelScene.swift */; };
+		A1401805272D59EB00CFA4C2 /* LevelScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14017DF272D59E900CFA4C2 /* LevelScene.swift */; };
+		A1401806272D59EB00CFA4C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14017E0272D59EB00CFA4C2 /* Assets.xcassets */; };
+		A154723127455D960042474B /* Plunger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A154723027455D960042474B /* Plunger.swift */; };
+		A17D50B6277B615900ED1252 /* Gun.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17D50B5277B615800ED1252 /* Gun.swift */; };
+		A17D50B7277B615900ED1252 /* Gun.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17D50B5277B615800ED1252 /* Gun.swift */; };
+		A1855826279DB26B00FD7AAE /* ElectricFence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1855825279DB26B00FD7AAE /* ElectricFence.swift */; };
+		A1855827279DB26B00FD7AAE /* ElectricFence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1855825279DB26B00FD7AAE /* ElectricFence.swift */; };
+		A18DE9C42743F94900E68A82 /* MeltingBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18DE9C32743F94900E68A82 /* MeltingBlock.swift */; };
+		A18DE9C62743FD0000E68A82 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18DE9C52743FD0000E68A82 /* Player.swift */; };
+		A19B18F7272F147A0071C8D8 /* TestLevel.sks in Resources */ = {isa = PBXBuildFile; fileRef = A19B18F6272F147A0071C8D8 /* TestLevel.sks */; };
+		A19B18F8272F147A0071C8D8 /* TestLevel.sks in Resources */ = {isa = PBXBuildFile; fileRef = A19B18F6272F147A0071C8D8 /* TestLevel.sks */; };
+		A1EA90122747F71200E0F7D4 /* Shared Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EA90112747F71200E0F7D4 /* Shared Constants.swift */; };
+		A1EA90132747F71200E0F7D4 /* Shared Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EA90112747F71200E0F7D4 /* Shared Constants.swift */; };
+		A1EA90142747F73500E0F7D4 /* Plunger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A154723027455D960042474B /* Plunger.swift */; };
+		A1EA90152747F73800E0F7D4 /* MeltingBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18DE9C32743F94900E68A82 /* MeltingBlock.swift */; };
+		A1EA90162747F73B00E0F7D4 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18DE9C52743FD0000E68A82 /* Player.swift */; };
+		A1EA90172747F74000E0F7D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14017E0272D59EB00CFA4C2 /* Assets.xcassets */; };
+		A1ED5AB327849B670066B9FC /* StartScreenState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ED5AB227849B670066B9FC /* StartScreenState.swift */; };
+		A1ED5AB427849B670066B9FC /* StartScreenState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ED5AB227849B670066B9FC /* StartScreenState.swift */; };
+		A1ED5AB627849BCE0066B9FC /* PlayingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ED5AB527849BCE0066B9FC /* PlayingState.swift */; };
+		A1ED5AB727849BCE0066B9FC /* PlayingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ED5AB527849BCE0066B9FC /* PlayingState.swift */; };
+		A1ED5AB927849BFE0066B9FC /* GameOverState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ED5AB827849BFE0066B9FC /* GameOverState.swift */; };
+		A1ED5ABA27849BFE0066B9FC /* GameOverState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ED5AB827849BFE0066B9FC /* GameOverState.swift */; };
+		A1ED5ABF2784A33A0066B9FC /* StartScreenScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ED5ABE2784A33A0066B9FC /* StartScreenScene.swift */; };
+		A1ED5AC02784A33A0066B9FC /* StartScreenScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ED5ABE2784A33A0066B9FC /* StartScreenScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1123E7A27A703B200A10A0C /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
+		A14017DD272D59E900CFA4C2 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		A14017DE272D59E900CFA4C2 /* StartScreen.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StartScreen.sks; sourceTree = "<group>"; };
+		A14017DF272D59E900CFA4C2 /* LevelScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelScene.swift; sourceTree = "<group>"; };
+		A14017E0272D59EB00CFA4C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A14017E5272D59EB00CFA4C2 /* Mr Puniverse Inspired Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mr Puniverse Inspired Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14017E8272D59EB00CFA4C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A14017EA272D59EB00CFA4C2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A14017ED272D59EB00CFA4C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A14017F0272D59EB00CFA4C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A14017F6272D59EB00CFA4C2 /* Mr Puniverse Inspired Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mr Puniverse Inspired Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14017F8272D59EB00CFA4C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A14017FA272D59EB00CFA4C2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A14017FD272D59EB00CFA4C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A14017FF272D59EB00CFA4C2 /* Mr_Puniverse_Inspired_Game_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mr_Puniverse_Inspired_Game_macOS.entitlements; sourceTree = "<group>"; };
+		A154723027455D960042474B /* Plunger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plunger.swift; sourceTree = "<group>"; };
+		A17D50B5277B615800ED1252 /* Gun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gun.swift; sourceTree = "<group>"; };
+		A1855825279DB26B00FD7AAE /* ElectricFence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricFence.swift; sourceTree = "<group>"; };
+		A18DE9C32743F94900E68A82 /* MeltingBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeltingBlock.swift; sourceTree = "<group>"; };
+		A18DE9C52743FD0000E68A82 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		A19B18F6272F147A0071C8D8 /* TestLevel.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TestLevel.sks; sourceTree = "<group>"; };
+		A1EA90112747F71200E0F7D4 /* Shared Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shared Constants.swift"; sourceTree = "<group>"; };
+		A1EA90182748162900E0F7D4 /* TestLevel copy.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "TestLevel copy.sks"; sourceTree = "<group>"; };
+		A1ED5AB227849B670066B9FC /* StartScreenState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenState.swift; sourceTree = "<group>"; };
+		A1ED5AB527849BCE0066B9FC /* PlayingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingState.swift; sourceTree = "<group>"; };
+		A1ED5AB827849BFE0066B9FC /* GameOverState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverState.swift; sourceTree = "<group>"; };
+		A1ED5ABE2784A33A0066B9FC /* StartScreenScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A14017E2272D59EB00CFA4C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14017F3272D59EB00CFA4C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A14017D7272D59E800CFA4C2 = {
+			isa = PBXGroup;
+			children = (
+				A14017DC272D59E900CFA4C2 /* Mr Puniverse Inspired Game Shared */,
+				A14017E7272D59EB00CFA4C2 /* Mr Puniverse Inspired Game iOS */,
+				A14017F7272D59EB00CFA4C2 /* Mr Puniverse Inspired Game macOS */,
+				A14017E6272D59EB00CFA4C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A14017DC272D59E900CFA4C2 /* Mr Puniverse Inspired Game Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A14017DD272D59E900CFA4C2 /* Actions.sks */,
+				A14017DE272D59E900CFA4C2 /* StartScreen.sks */,
+				A19B18F6272F147A0071C8D8 /* TestLevel.sks */,
+				A1EA90182748162900E0F7D4 /* TestLevel copy.sks */,
+				A1EA90112747F71200E0F7D4 /* Shared Constants.swift */,
+				A14017DF272D59E900CFA4C2 /* LevelScene.swift */,
+				A1ED5ABE2784A33A0066B9FC /* StartScreenScene.swift */,
+				A17D50B5277B615800ED1252 /* Gun.swift */,
+				A18DE9C32743F94900E68A82 /* MeltingBlock.swift */,
+				A18DE9C52743FD0000E68A82 /* Player.swift */,
+				A1855825279DB26B00FD7AAE /* ElectricFence.swift */,
+				A1123E7A27A703B200A10A0C /* Switch.swift */,
+				A154723027455D960042474B /* Plunger.swift */,
+				A1ED5AB227849B670066B9FC /* StartScreenState.swift */,
+				A1ED5AB527849BCE0066B9FC /* PlayingState.swift */,
+				A1ED5AB827849BFE0066B9FC /* GameOverState.swift */,
+				A14017E0272D59EB00CFA4C2 /* Assets.xcassets */,
+			);
+			path = "Mr Puniverse Inspired Game Shared";
+			sourceTree = "<group>";
+		};
+		A14017E6272D59EB00CFA4C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A14017E5272D59EB00CFA4C2 /* Mr Puniverse Inspired Game.app */,
+				A14017F6272D59EB00CFA4C2 /* Mr Puniverse Inspired Game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A14017E7272D59EB00CFA4C2 /* Mr Puniverse Inspired Game iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A14017E8272D59EB00CFA4C2 /* AppDelegate.swift */,
+				A14017EA272D59EB00CFA4C2 /* GameViewController.swift */,
+				A14017EC272D59EB00CFA4C2 /* Main.storyboard */,
+				A14017EF272D59EB00CFA4C2 /* LaunchScreen.storyboard */,
+			);
+			path = "Mr Puniverse Inspired Game iOS";
+			sourceTree = "<group>";
+		};
+		A14017F7272D59EB00CFA4C2 /* Mr Puniverse Inspired Game macOS */ = {
+			isa = PBXGroup;
+			children = (
+				A14017F8272D59EB00CFA4C2 /* AppDelegate.swift */,
+				A14017FA272D59EB00CFA4C2 /* GameViewController.swift */,
+				A14017FC272D59EB00CFA4C2 /* Main.storyboard */,
+				A14017FF272D59EB00CFA4C2 /* Mr_Puniverse_Inspired_Game_macOS.entitlements */,
+			);
+			path = "Mr Puniverse Inspired Game macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A14017E4272D59EB00CFA4C2 /* Mr Puniverse Inspired Game iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A140180A272D59EB00CFA4C2 /* Build configuration list for PBXNativeTarget "Mr Puniverse Inspired Game iOS" */;
+			buildPhases = (
+				A14017E1272D59EB00CFA4C2 /* Sources */,
+				A14017E2272D59EB00CFA4C2 /* Frameworks */,
+				A14017E3272D59EB00CFA4C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mr Puniverse Inspired Game iOS";
+			productName = "Mr Puniverse Inspired Game iOS";
+			productReference = A14017E5272D59EB00CFA4C2 /* Mr Puniverse Inspired Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A14017F5272D59EB00CFA4C2 /* Mr Puniverse Inspired Game macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A140180D272D59EB00CFA4C2 /* Build configuration list for PBXNativeTarget "Mr Puniverse Inspired Game macOS" */;
+			buildPhases = (
+				A14017F2272D59EB00CFA4C2 /* Sources */,
+				A14017F3272D59EB00CFA4C2 /* Frameworks */,
+				A14017F4272D59EB00CFA4C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mr Puniverse Inspired Game macOS";
+			productName = "Mr Puniverse Inspired Game macOS";
+			productReference = A14017F6272D59EB00CFA4C2 /* Mr Puniverse Inspired Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A14017D8272D59E800CFA4C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					A14017E4272D59EB00CFA4C2 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					A14017F5272D59EB00CFA4C2 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = A14017DB272D59E800CFA4C2 /* Build configuration list for PBXProject "Mr Puniverse Inspired Game" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A14017D7272D59E800CFA4C2;
+			productRefGroup = A14017E6272D59EB00CFA4C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A14017E4272D59EB00CFA4C2 /* Mr Puniverse Inspired Game iOS */,
+				A14017F5272D59EB00CFA4C2 /* Mr Puniverse Inspired Game macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A14017E3272D59EB00CFA4C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1401802272D59EB00CFA4C2 /* StartScreen.sks in Resources */,
+				A14017EE272D59EB00CFA4C2 /* Main.storyboard in Resources */,
+				A1401800272D59EB00CFA4C2 /* Actions.sks in Resources */,
+				A14017F1272D59EB00CFA4C2 /* LaunchScreen.storyboard in Resources */,
+				A19B18F7272F147A0071C8D8 /* TestLevel.sks in Resources */,
+				A1401806272D59EB00CFA4C2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14017F4272D59EB00CFA4C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14017FE272D59EB00CFA4C2 /* Main.storyboard in Resources */,
+				A1401803272D59EB00CFA4C2 /* StartScreen.sks in Resources */,
+				A19B18F8272F147A0071C8D8 /* TestLevel.sks in Resources */,
+				A1401801272D59EB00CFA4C2 /* Actions.sks in Resources */,
+				A1EA90172747F74000E0F7D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A14017E1272D59EB00CFA4C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18DE9C42743F94900E68A82 /* MeltingBlock.swift in Sources */,
+				A154723127455D960042474B /* Plunger.swift in Sources */,
+				A1401804272D59EB00CFA4C2 /* LevelScene.swift in Sources */,
+				A1ED5AB327849B670066B9FC /* StartScreenState.swift in Sources */,
+				A1855826279DB26B00FD7AAE /* ElectricFence.swift in Sources */,
+				A14017EB272D59EB00CFA4C2 /* GameViewController.swift in Sources */,
+				A1ED5ABF2784A33A0066B9FC /* StartScreenScene.swift in Sources */,
+				A18DE9C62743FD0000E68A82 /* Player.swift in Sources */,
+				A1ED5AB927849BFE0066B9FC /* GameOverState.swift in Sources */,
+				A1EA90122747F71200E0F7D4 /* Shared Constants.swift in Sources */,
+				A17D50B6277B615900ED1252 /* Gun.swift in Sources */,
+				A1ED5AB627849BCE0066B9FC /* PlayingState.swift in Sources */,
+				A14017E9272D59EB00CFA4C2 /* AppDelegate.swift in Sources */,
+				A1123E7B27A703B200A10A0C /* Switch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14017F2272D59EB00CFA4C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EA90152747F73800E0F7D4 /* MeltingBlock.swift in Sources */,
+				A1EA90132747F71200E0F7D4 /* Shared Constants.swift in Sources */,
+				A1401805272D59EB00CFA4C2 /* LevelScene.swift in Sources */,
+				A1ED5AB427849B670066B9FC /* StartScreenState.swift in Sources */,
+				A1855827279DB26B00FD7AAE /* ElectricFence.swift in Sources */,
+				A14017FB272D59EB00CFA4C2 /* GameViewController.swift in Sources */,
+				A1ED5AC02784A33A0066B9FC /* StartScreenScene.swift in Sources */,
+				A1EA90162747F73B00E0F7D4 /* Player.swift in Sources */,
+				A1ED5ABA27849BFE0066B9FC /* GameOverState.swift in Sources */,
+				A1EA90142747F73500E0F7D4 /* Plunger.swift in Sources */,
+				A17D50B7277B615900ED1252 /* Gun.swift in Sources */,
+				A1ED5AB727849BCE0066B9FC /* PlayingState.swift in Sources */,
+				A14017F9272D59EB00CFA4C2 /* AppDelegate.swift in Sources */,
+				A1123E7C27A703B200A10A0C /* Switch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A14017EC272D59EB00CFA4C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A14017ED272D59EB00CFA4C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A14017EF272D59EB00CFA4C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A14017F0272D59EB00CFA4C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A14017FC272D59EB00CFA4C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A14017FD272D59EB00CFA4C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1401808272D59EB00CFA4C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1401809272D59EB00CFA4C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A140180B272D59EB00CFA4C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KYFNJLKEB7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "LaunchScreen ";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationLandscapeLeft;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ACG.Mr-Puniverse-Inspired-Game";
+				PRODUCT_NAME = "Mr Puniverse Inspired Game";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A140180C272D59EB00CFA4C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KYFNJLKEB7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "LaunchScreen ";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationLandscapeLeft;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ACG.Mr-Puniverse-Inspired-Game";
+				PRODUCT_NAME = "Mr Puniverse Inspired Game";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A140180E272D59EB00CFA4C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Mr Puniverse Inspired Game macOS/Mr_Puniverse_Inspired_Game_macOS.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KYFNJLKEB7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ACG.Mr-Puniverse-Inspired-Game";
+				PRODUCT_NAME = "Mr Puniverse Inspired Game";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A140180F272D59EB00CFA4C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Mr Puniverse Inspired Game macOS/Mr_Puniverse_Inspired_Game_macOS.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KYFNJLKEB7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ACG.Mr-Puniverse-Inspired-Game";
+				PRODUCT_NAME = "Mr Puniverse Inspired Game";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A14017DB272D59E800CFA4C2 /* Build configuration list for PBXProject "Mr Puniverse Inspired Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1401808272D59EB00CFA4C2 /* Debug */,
+				A1401809272D59EB00CFA4C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A140180A272D59EB00CFA4C2 /* Build configuration list for PBXNativeTarget "Mr Puniverse Inspired Game iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A140180B272D59EB00CFA4C2 /* Debug */,
+				A140180C272D59EB00CFA4C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A140180D272D59EB00CFA4C2 /* Build configuration list for PBXNativeTarget "Mr Puniverse Inspired Game macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A140180E272D59EB00CFA4C2 /* Debug */,
+				A140180F272D59EB00CFA4C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A14017D8272D59E800CFA4C2 /* Project object */;
+}
