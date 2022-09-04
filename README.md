@@ -1,6 +1,8 @@
 # Puniverse Platformer
 This is a proof of concept demo of simple iOS platform game written in Swift and using the SpriteKit framework. It is inspired by a simple but great 80s platform game called [Mr Puniverse](https://www.youtube.com/watch?v=3JxU1qmFdf4) for the Commodore 16/Plus-4, which I spent hours playing as a kid.
 
+Nearly all the code is currently in the 'Mr Puniverse Inspired Game - shared' folder. I may one day do a Mac version too, time permitting, so I have set the project up with this in mind.
+
 This is currently very much a work-in-progress. Most of the desired game elements from the original game are now implemented and fully functioning, with the exception of the 'ladders' that let let you climb up (but not down) on certain levels. 
 
 However the art assests are very rudimentary at present, levels need to be designed, and functionality enabling loading of multiple levels and saving game progress needs to be implemented. The game will also need a proper title when a theme has been decided.
