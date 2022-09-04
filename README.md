@@ -16,4 +16,10 @@ Game objects currently implemented are as follows (and you can see some in the s
 - 'Melting blocks' - these are the lilac coloured blocks. They gradually melt away when the player is standing on them, and once they're gone there's no way to get them back - so be careful!
 - 'Air depletion zones' are areas in which the player's air supply is depleted, much as though they are in a cave with limited air supply. These are currently visible as transculcent red areas for testing purposes, but will likely be invisible in the finished game (or indicated in some other way via an appropriate background design). When the player is not in an air depletion zone, the air supply is recharged until it reaches a maximum level.
 
-
+<p>
+  <img src="readme-assets/puniverse-1">
+  <img src="readme-assets/puniverse-2">
+  <img src="readme-assets/puniverse-3">
+  <img src="readme-assets/puniverse-4">
+  <img src="readme-assets/puniverse-5">
+</p>
